@@ -1,0 +1,67 @@
+# exemplo de como usar:
+
+## Exemplo: octave
+
+$ cht.sh octave/:list
+:learn
+:list
+octave_basico_parte1.m
+octave_basico_parte2.m
+octave_basico_parte3.m
+octave_basico_parte4.m
+octave_basico_parte5.m
+octave_basico_parte6.m
+rosetta/
+
+## Exemplo: Maple
+$ cht.sh maple
+Unknown topic.
+Do you mean one of these topics maybe?
+
+    * maple/ 100
+    * alex 67
+    * jmap 67
+
+$ cht.sh maple/:list
+:learn
+:list
+_info.yaml.OFF
+rosetta/
+#
+$ cht.sh maple/rosetta/Variables/
+a := 1:
+print ("a is "||a);
+                            "a is 1"
+$ cht.sh maple/rosetta/Variables/:list
+variables-1.maple
+variables-2.maple
+variables-3.maple
+variables-4.maple
+variables-5.maple
+variables-6.maple
+variables-7.maple
+
+$ cht.sh maple/rosetta/Variables/variables-4.maple
+a := 1:
+print ("a is "||a);
+                            "a is 1"
+$ cht.sh maple/rosetta/Variables/4
+print ("a is "||a);
+a := 4:
+print ("a is "||a);
+                            "a is 1"
+                            "a is 4"
+$ cht.sh maple/rosetta/Variables/5
+print ("a is "||a);
+type(a, integer);
+a := "Hello World":
+print ("a is "||a);
+type(a, integer);
+type(a, string);
+                            "a is 4"
+                              true
+                       "a is Hello World"
+                             false
+                              true
+hh
+#

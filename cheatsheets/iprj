@@ -1,0 +1,65 @@
+---
+tags: [ mycommand ]
+---
+
+cansi
+=====
+
+# Cria o arquivo init.yml
+$ iprj new c yml
+
+# EDIT init.yml
+
+# Imprime na tela os arquivos que podem ser criados
+$ iprj new c
+
+# Salva os arquivos conforme a regra definida em init.yml
+$ iprj new c save
+
+# Save File: out/CMakeLists.txt
+# Save File: out/.ccls
+# Save File: out/.gitignore
+# Save File: out/.ccls-root
+# Save File: out/.local.vimrc
+# Save File: out/.projections.json
+
+cpp
+===
+
+# Cria o arquivo init.yml
+$ iprj new cpp yml
+
+# EDIT init.yml
+
+# Imprime na tela os arquivos que podem ser criados
+$ iprj new cpp
+
+# Salva os arquivos conforme a regra definida em init.yml
+$ iprj new cpp save
+
+# Save File: out/CMakeLists.txt
+# Save File: out/.ccls
+# Save File: out/.gitignore
+# Save File: out/.ccls-root
+# Save File: out/.local.vimrc
+# Save File: out/.projections.json
+
+hw
+==
+
+$ iprj new hw yml
+$ iprj new hw
+$ iprj new hw save
+
+others
+======
+
+$ iprj maven archetype
+$ iprj new gradle
+
+beans
+=====
+
+$ iprj new beans yml
+$ iprj new beans
+$ iprj new beans save

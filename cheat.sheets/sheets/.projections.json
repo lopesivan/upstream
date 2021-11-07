@@ -1,0 +1,9 @@
+{
+  "./.projections.json": { "type": "dit" },
+
+  "*.md": {
+    "skeleton": "tldr_project_model",
+    "type": "md"
+  }
+
+}
