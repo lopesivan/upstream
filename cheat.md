@@ -1,9 +1,52 @@
+Diretório *upstream/cheatsheets/*
+---------------------------------
 
-*/home/ivan/.config/cheat.sh/upstream/cheatsheets*
-$ cht.sh  cheat:gs
+file: gs
+--------
+
+
+Comando para gerar um arquivo de cheatsheet:
+
+```bash
+cht.sh  cheat:gs
+```
+
+conteúdo:
+```
 # To reduce the size of a pdf file:
 gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=output.pdf input.pdf
+```
 
+file: ls
+--------
+
+
+Comando para gerar um arquivo de cheatsheet:
+
+```bash
+cht.sh cheat:ls
+```
+
+conteúdo:
+```
+# To display everything in <dir>, excluding hidden files:
+ls <dir>
+
+# To display everything in <dir>, including hidden files:
+ls -a <dir>
+
+# To display all files, along with the size (with unit suffixes) and timestamp
+ls -lh <dir>
+
+# To display files, sorted by size:
+ls -S <dir>
+
+# To display directories only:
+ls -d */ <dir>
+
+# To display directories only, include hidden:
+ls -d .*/ */ <dir>
+```
 
 
 
@@ -37,7 +80,6 @@ emacs:go-mode/:list         - special editor names
 mkffs.ffatt                 - unknown
 latencies                   - [python2]
 
-
 cheat.sheets:perl
 cheat:perl
 tldr:perl
@@ -53,8 +95,6 @@ cht.sh yum
 /home/ivan/.config/cheat.sh/upstream/tldr/pages/linux/yum.md
 
 cht.sh cheat.sheets:lua/oo
-
-
 
 cht.sh  maple/:list
 cht.sh  maple/_info.yaml.OFF
