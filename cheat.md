@@ -57,6 +57,10 @@ ls -d */ <dir>
 ls -d .*/ */ <dir>
 ```
 
+#[cheat.sheets:python]
+#[cheat:python]
+#[tldr:python]
+
 python/:list
 ls
 ls?T
