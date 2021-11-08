@@ -1,9 +1,20 @@
-Diretório *upstream/cheatsheets/*
----------------------------------
+# cheat server
 
-file: gs
---------
+## Load server
 
+```bash
+ssh dev 'make -C cheat up'
+```
+
+## Turn off server
+
+```bash
+ssh dev 'make -C cheat clean'
+```
+
+## Diretório *upstream/cheatsheets/*
+
+### file: gs
 
 Comando para gerar um arquivo de cheatsheet:
 
@@ -17,9 +28,7 @@ conteúdo:
 gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=output.pdf input.pdf
 ```
 
-file: ls
---------
-
+### file: ls
 
 Comando para gerar um arquivo de cheatsheet:
 
@@ -47,10 +56,6 @@ ls -d */ <dir>
 # To display directories only, include hidden:
 ls -d .*/ */ <dir>
 ```
-
-
-
-
 
 python/:list
 ls
