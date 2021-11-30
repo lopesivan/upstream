@@ -1,0 +1,4 @@
+exemplo modificado para teste
+a := 1:
+print ("a is "||a);
+                            "a is 1"
