@@ -148,4 +148,6 @@ a708070 Adiciona o arquivo variables-8.maple
 > monitor_inotifywait_tex
 > rosetta/
 > shortcuts
+> cht.sh bash/monitor_inotifywait_tex    <- get contet of file  monitor_inotifywait_tex
+
 
