@@ -150,4 +150,6 @@ a708070 Adiciona o arquivo variables-8.maple
 > shortcuts
 > cht.sh bash/monitor_inotifywait_tex    <- get contet of file  monitor_inotifywait_tex
 
-
+XXXXXXX Onde está o comando cht.sh?
+> $ readlink -f `which cht.sh`
+> /home/ivan/.config/nvim/bin/cht.sh
