@@ -153,3 +153,15 @@ a708070 Adiciona o arquivo variables-8.maple
 XXXXXXX Onde está o comando cht.sh?
 > $ readlink -f `which cht.sh`
 > /home/ivan/.config/nvim/bin/cht.sh
+
+a82e51659 [cheat.sheets/sheets/_latex] Makefile, latex.mk
+> $ cht.sh  latex/:list
+> :learn
+> :list
+> Basics
+> Makefile
+> latex.mk
+> rosetta/
+> $ cht.sh  latex/Makefile    <- get contet of Makefile
+
+
