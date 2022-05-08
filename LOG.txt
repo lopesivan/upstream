@@ -117,7 +117,35 @@ cht.sh maple/rosetta/Variables/3
 cht.sh maple/rosetta/Variables/1
 cht.sh maple/rosetta/Variables/2
 
-./cheat.sheets/sheets/_c/Makefile
-cht.sh c/Makefile
-cht.sh c/Makefile?T   > aaa.mk
+XXXXXXX Modifica [upstream/cheat.sheets/sheets/_c]
+>  I  $ cht.sh c/:list
+> :learn
+> :list
+> Makefile
+> rosetta/
+> ./cheat.sheets/sheets/_c/Makefile
+> cht.sh c/Makefile
+> cht.sh c/Makefile?T   > aaa.mk
+
+a708070 Adiciona o arquivo variables-8.maple
+> [RosettaCodeData/Lang/Maple]
+> $ ls -l Variables
+> lrwxrwxrwx Variables -> ../../Task/Variables/Maple
+>  $ ls Variables
+> variables-1.maple  variables-3.maple
+> variables-5.maple  variables-7.maple
+>  I  $ cht.sh maple/rosetta/Variables/8
+> exemplo modificado para teste
+> a := 1:
+> print ("a is "||a);
+>                             "a is 1"
+
+97f9758 [cheat.sheets/sheets/_bash] monitor_inotifywait_tex
+> $ cht.sh bash/:list
+> :learn
+> :list
+> forkbomb
+> monitor_inotifywait_tex
+> rosetta/
+> shortcuts
 
