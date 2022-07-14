@@ -1,5 +1,7 @@
 # kiko
 
+path: '{{/upstream/tldr/pages/common}}'
+
 > A lightweight and portable command-line YAML processor.
 > More information: <https://mikefarah.gitbook.io/yq/>.
 
