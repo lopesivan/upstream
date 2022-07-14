@@ -9,5 +9,5 @@
 
 `gcc -wall -andi -c {{main.c}} '{{key}}' '{{value}}'`
 
-- Output a YAML file, in pretty-print format (v3):
+- Output a `YAML` file, in pretty-print format (v3):
 
