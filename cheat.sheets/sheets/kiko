@@ -1,0 +1,7 @@
+# kiko
+
+#path /upstream/cheat.sheets/sheets/yq
+
+# Re-encode existing MP3 to 64 kbps MP3
+lame -b 64 original.mp3 new.mp3
+
