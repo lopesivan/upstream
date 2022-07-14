@@ -74,3 +74,19 @@ cht.sh maple/rosetta/Variables/2
 cht.sh c/Makefile
 cht.sh c/Makefile?T   > aaa.mk
 
+cheat sed/rosetta/:list
+cheat sed/rosetta/Substring
+
+
+cheat c/:list          LOCAL
+:learn
+:list
+Makefile              > upstream/cheat.sheets/sheets/_c
+rosetta/              rosetta ->  posso usar: cheat c/rosetta/:list
+
+
+cheat yq              >   /upstream/tldr/pages/common/yq.md
+cheat cheat.sheets:yq >   /upstream/cheat.sheets/sheets/yq
+
+criando kiko:
+cheat kiko  >   /upstream/tldr/pages/common/kiko.md
