@@ -90,3 +90,4 @@ cheat cheat.sheets:yq >   /upstream/cheat.sheets/sheets/yq
 
 criando kiko:
 cheat kiko  >   /upstream/tldr/pages/common/kiko.md
+cheat cheat.sheets:kiko >/upstream/cheat.sheets/sheets/yq
