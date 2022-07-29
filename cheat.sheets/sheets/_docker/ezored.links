@@ -1,0 +1,34 @@
+O que mais podemos fazer com C++
+Vou deixar uma série de links interessantes de projetos relacionados:
+
+
+
+https://pspdfkit.com/blog/2018/failable-methods-with-djinni/
+
+https://www.zuehlke.com/blog/en/djinni-i-wish-there-was-an-easy-integration-of-native-code-in-java/
+
+https://medium.com/@liewjuntung/how-to-pass-a-bytebuffer-from-java-to-c-789dab9ce111
+
+http://mobilecpptutorials.com/hello-world-app-part-1.html
+
+https://medium.com/@ryardley/3-mobile-to-c-with-djinni-1c993757b68f
+
+https://dinarrow.github.io/2018/01/23/cpp-djinni-android.html
+
+https://medium.com/safetycultureengineering/how-to-build-a-shared-c-library-for-ios-and-android-a3817aba5798
+
+https://rajkumarbhaji.blogspot.com/2017/02/djinni-c-cross-platform-helloworld.html
+
+https://whackylabs.com/djinni/cpp/ios/android/2018/11/23/cross-platform-cpp.html
+
+http://macoscope.com/blog/cross-platform-libraries/
+
+https://engineering.fb.com/ios/under-the-hood-building-moments/
+
+
+
+Este é o exemplo bem complexo e completo transferindo dados da câmera pro C++:
+
+https://academy.realm.io/posts/kowalczyk-mobilization-combining-swift-kotlin-c-cpp/
+
+
