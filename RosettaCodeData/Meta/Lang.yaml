@@ -765,6 +765,11 @@ Diesel:
   name: Diesel
   path: Diesel
   url: Diesel
+Docker:
+  ext: dockerfile
+  name: Docker
+  path: Docker
+  url: Docker
 Dodo0:
   ext: dodo0
   name: Dodo0
