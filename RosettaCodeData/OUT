@@ -1,0 +1,41 @@
+
+ I  $ cheat lua/rosetta/:list
+00DESCRIPTION
+100-doors
+24-game
+24-game-Solve
+99-Bottles-of-Beer
+A+B
+~~~~~~
+~~~~~~
+~~~~~~
+~~~~~~
+Zig-zag-matrix
+meuTeste
+  main  /workspace/upstream/RosettaCodeData
+ I  $ cheat lua/rosetta/meuteste
+
+  main  /workspace/upstream/RosettaCodeData
+ I  $ cheat lua/rosetta/meuTeste
+-- programa em lua
+
+meu
+teste
+Alpha.Lua
+  main  /workspace/upstream/RosettaCodeData
+ I  $ cheat docker/rosetta/meuTeste
+Task/meuTeste/Docker
+  main  /workspace/upstream/RosettaCodeData
+ I  $ cheat ezored/rosetta/:list
+android
+linux
+windows
+  main  /workspace/upstream/RosettaCodeData
+ I  $ cheat ezored/rosetta/android
+Task/android/Ezored
+  main  /workspace/upstream/RosettaCodeData
+ I  $ cheat ezored/rosetta/linux
+Task/linux/Ezored
+  main  /workspace/upstream/RosettaCodeData
+ I  $ cheat ezored/rosetta/windows
+Task/windows/Ezored
