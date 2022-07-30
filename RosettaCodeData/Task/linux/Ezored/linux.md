@@ -30,3 +30,6 @@ make run
 find files/modules/ -name module.cmake -exec sed '8,17s/^/#/' -i {} \+
 
 python make.py target linux_app build --dry-run
+
+
+> python make.py conan setup
