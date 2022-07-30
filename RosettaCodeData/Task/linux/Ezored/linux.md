@@ -67,4 +67,10 @@ Trecho removido:
         self.requires("date/3.0.1")
         self.requires("nlohmann_json/3.9.1")
 ```
+```bash
+$ git clone https://github.com/catchorg/Catch2.git
+$ cd Catch2
+$ cmake -Bbuild -H. -DBUILD_TESTING=OFF
+$ sudo cmake --build build/ --target install
+```
 
